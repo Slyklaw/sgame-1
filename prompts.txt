@@ -1,0 +1,15 @@
+openrouter key (gamedev) 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
+
+
+1. Let's make a simple board game using a React Native framework like Expo. Name the game "Sabotage". Create the project in the current working directory using a blank template. Install a minimal set of dependencies.
+Checked-in
+
+
+
+The game is named "sabotage".
+It should be playable on mobile devices and desktop browsers. Be sure to give instructions for initial project setup and to install any necessary dependencies.
+It should look like a classic board game along the lines of checkers or chess. Give the squares a subtle checkerboard effect.
+The board has 15 columns and 7 rows with square spaces.
+Make sure the whole game is centered and fully visible on the screen without any scrolling.
+We'll be adding pieces and rules later.
+Use the modern commands npm/npx for cli tooling.
