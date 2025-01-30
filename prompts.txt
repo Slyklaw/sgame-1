@@ -1,8 +1,15 @@
 openrouter key (gamedev) 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
+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
 
 
 1. Let's make a simple board game using a React Native framework like Expo. Name the game "Sabotage". Create the project in the current working directory using a blank template. Install a minimal set of dependencies.
 Checked-in
+
+2. Change the display of the player pieces from 'x' and 'o' to a blue circle and a red circle.
+Checked-in
+
+3. The initial state of the board should be empty.
+
 
 
 

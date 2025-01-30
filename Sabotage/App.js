@@ -52,7 +52,17 @@ export default function App() {
         onPress={() => handlePress(index)}
         disabled={gameStatus !== 'Playing'}
       >
-        <Text style={styles.squareText}>{board[index]}</Text>
+        <View style={[
+          styles.square,
+          board[index] === 'X' ? styles.xSquare : styles.oSquare
+        ]}>
+          <View style={[
+            styles.square,
+            board[index] === 'X' ? styles.xSquare : styles.oSquare
+          ]}>
+            <Text style={styles.squareText}>{board[index]}</Text>
+          </View>
+        </View>
       </TouchableOpacity>
     );
   };
@@ -124,7 +134,15 @@ const styles = StyleSheet.create({
   squareText: {
     fontSize: 36,
     fontWeight: 'bold',
-    color: '#2c3e50',
+    color: 'white',
+  },
+  xSquare: {
+    backgroundColor: '#3498db',
+    borderRadius: 40,
+  },
+  oSquare: {
+    backgroundColor: '#e74c3c',
+    borderRadius: 40,
   },
   button: {
     marginTop: 20,
