@@ -52,13 +52,10 @@ export default function App() {
         onPress={() => handlePress(index)}
         disabled={gameStatus !== 'Playing'}
       >
-        <View style={[
-          styles.square,
-          board[index] === 'X' ? styles.xSquare : styles.oSquare
-        ]}>
+        <View style={styles.square}>
           <View style={[
             styles.square,
-            board[index] === 'X' ? styles.xSquare : styles.oSquare
+            board[index] === 'X' ? styles.xSquare : board[index] === 'O' ? styles.oSquare : null
           ]}>
             <Text style={styles.squareText}>{board[index]}</Text>
           </View>
