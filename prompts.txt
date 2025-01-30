@@ -10,6 +10,11 @@ Checked-in
 Checked-in
 
 3. The initial state of the board should be empty. It currently displays red circles.
+Checked-in
+
+4. 
+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
+add a mild checkboard pattern to the board, the way a chess or checkers board looks, but less contrast between the 2 colors.
 
 
 

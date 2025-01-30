@@ -55,6 +55,7 @@ export default function App() {
         <View style={styles.square}>
           <View style={[
             styles.square,
+            { backgroundColor: index % 2 === 0 ? '#f5f5f5' : '#e8e8e8' },
             board[index] === 'X' ? styles.xSquare : board[index] === 'O' ? styles.oSquare : null
           ]}>
             <Text style={styles.squareText}>{board[index]}</Text>
