@@ -16,6 +16,8 @@ Checked-in
 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
 add a mild checkboard pattern to the board, the way a chess or checkers board looks, but less contrast between the 2 colors.
 
+5. change the rules from tic tac toe to match-4. increase the board size to 15 colums by 7 rows. win condition is any 4 pieces of the same color in a straight line (horizontal, vertical, or diagonal).
+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
 
 
 
